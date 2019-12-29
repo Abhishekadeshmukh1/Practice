@@ -1,0 +1,41 @@
+
+1 Create Repository
+
+2 Open GitBash
+
+3 pwd
+
+4 cd ../..
+
+5 cd ASDM(folder Name)
+
+6 git init
+
+7 git add .
+
+8 git commit -m "ASDM"
+
+9 git remote add github https://github.com/Abhishekadeshmukh1/Practice.git
+
+10 git remote -v
+
+   *******************Push*************
+11 git push -f github master
+
+*******************Clone*************
+
+12 git clone https://github.com/Abhishekadeshmukh1/Practice.git
+
+*******************Pull*************
+
+12 git pull github master  -----------git pull 'remote_name' 'branch_name'
+or
+git pull -f github master
+
+
+13 git branch PracticeBranch   ------------to create new Branch
+
+
+14 git checkout PracticeBranch -------to checkout branch /to change branch/ goto master
+
+15 git merge BranchName
